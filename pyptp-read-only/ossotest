@@ -1,0 +1,68 @@
+#!/usr/bin/python2.5
+# -*- coding: utf-8 -*-
+
+import gtk
+import hildon
+import sys
+import traceback
+from ptp.PtpUsbTransport import PtpUsbTransport
+from ptp.PtpSession import PtpSession, PtpException
+from ptp import PtpValues
+
+class UITest:
+        
+        def __init__(self):
+                # create program
+                self.program = hildon.Program()
+                gtk.set_application_name("Adq test")
+                
+                # create window
+                self.window = hildon.Window()
+                self.window.connect("delete_event", lambda w,d: gtk.main_quit())
+                self.program.add_window(self.window)
+                
+                # create layout
+                self.layout = gtk.Fixed()
+                self.window.add(self.layout)
+
+                # create layout contents
+                button = gtk.Button("Shoot!")
+                button.connect("clicked", self.shoot)
+                button.set_property("width-request", 100)
+                button.set_property("height-request", 100)
+                self.layout.put(button, 10, 10)
+                
+                # ready!
+                self.window.show_all()
+                
+        def shoot(self, widget, data=None):
+                try:
+                        ptpTransport = PtpUsbTransport(0, 0)
+                        ptpSession = PtpSession(ptpTransport)
+                        vendorId = PtpValues.Vendors.STANDARD
+                        ptpSession.OpenSession()
+                        deviceInfo = ptpSession.GetDeviceInfo()
+                        vendorId = deviceInfo.VendorExtensionID
+                        
+                        ptpSession.InitiateCapture(objectFormatId=PtpValues.StandardObjectFormats.EXIF_JPEG)
+                
+                except Exception, e:
+                        popup = hildon.Note("information", (self.window, "Capture failed: %s" % e))
+                        popup.set_button_text("Captured ok")
+                        popup.run();
+                        popup.destroy()
+                else:
+                        popup = hildon.Note("information", (self.window, "Hello"))
+                        popup.set_button_text("Captured ok")
+                        popup.run();
+                        popup.destroy()
+                                                
+                del ptpSession
+                del ptpTransport
+
+        def main(self):
+                gtk.main()
+
+if __name__ == "__main__":
+        uitest = UITest()
+        uitest.main() 

@@ -1,0 +1,599 @@
+
+PropertyCode: 0xd025 (NIKON:d025)
+DataType: UINT32
+GetSet: STANDARD:GET
+FactoryDefaultValue: 16777472
+CurrentValue: 12060181
+
+PropertyCode: 0xd026 (NIKON:d026)
+DataType: UINT32
+GetSet: STANDARD:GET
+FactoryDefaultValue: 16777472
+CurrentValue: 33685926
+
+PropertyCode: 0xd10d (NIKON:d10d)
+DataType: STR
+GetSet: STANDARD:GET
+FactoryDefaultValue: 00000000000000000000
+CurrentValue:             ;0021890
+
+
+
+
+
+PropertyCode: 0xd01f (NIKON:d01f)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd045 (NIKON:d045)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd109 (NIKON:d109)
+DataType: INT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: -30
+MaximumValue: 30
+StepSize: 2
+
+PropertyCode: 0xd16a (NIKON:d16a)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd106 (NIKON:AUTO_FOCUS_LOCK)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+???
+
+
+
+
+
+
+
+
+
+
+PropertyCode: 0xd0c3 (NIKON:d0c3)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 1
+CurrentValue: 1
+MinimumValue: 1
+MaximumValue: 3
+StepSize: 1
+
+PropertyCode: 0xd0e1 (NIKON:d0e1)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 1
+CurrentValue: 1
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd0e2 (NIKON:d0e2)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 1
+CurrentValue: 3
+
+PropertyCode: 0xd102 (NIKON:d102)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 0
+CurrentValue: 0
+
+PropertyCode: 0xd10b (NIKON:d10b)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd120 (NIKON:d120)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd121 (NIKON:d121)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd122 (NIKON:d122)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd124 (NIKON:d124)
+DataType: INT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: -18
+MaximumValue: 18
+StepSize: 1
+
+PropertyCode: 0xd125 (NIKON:d125)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 7
+StepSize: 1
+
+PropertyCode: 0xd100 (NIKON:EXPOSURE_TIME)
+DataType: UINT32
+GetSet: STANDARD:GET
+FactoryDefaultValue: 69536
+CurrentValue: 655373
+Enumeration: (69536, 68736, 68036, 67536, 67136, 66786, 66536, 66336, 66176, 66036, 65936, 65856, 65786, 65736, 65696, 65661, 65636, 65616, 65596, 65586, 65576, 65566, 65561, 65556, 65551, 65549, 65546, 65544, 65542, 65541, 65540, 65539, 655385, 65538, 655376, 655373, 65537, 851978, 1048586, 131073, 1638410, 196609, 262145, 327681, 393217, 524289, 655361, 851969, 983041, 1310721, 1638401, 1966081, 4294967295L)
+
+
+
+
+
+
+
+PropertyCode: 0xd02a (NIKON:IMAGE_SHARPENING)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 6
+StepSize: 1
+0:auto
+1:normal
+2:low
+3:medium low
+4:medium high
+5:high
+6:none
+
+
+PropertyCode: 0xd02b (NIKON:TONE_COMPENSATION)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 6
+StepSize: 1
+0:auto
+1:normal
+2:low contrast
+3:medium low
+4:medium high
+5:high contrast
+6:custom
+
+
+PropertyCode: 0xd02c (NIKON:COLOUR_MODE)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 2
+StepSize: 1
+0: IIIa sRGB
+1: Ia sRGB
+2: II Adobe RGB
+
+
+PropertyCode: 0xd142 (NIKON:SATURATION)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 2
+StepSize: 1
+0:normal
+1:moderate
+2:enhanced
+
+
+PropertyCode: 0xd02d (NIKON:HUE_ADJUSTMENT)
+DataType: INT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: -9
+MaximumValue: 9
+StepSize: 3
+(from -9 to 9 in steps of 3)
+
+
+
+PropertyCode: 0xd054 (NIKON:ISO_AUTO)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+0: off
+1: on
+
+
+
+PropertyCode: 0xd056 (NIKON:EV_STEP)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 2
+StepSize: 1
+0:1/3
+1:1/2
+2:<returns response 0xa004>
+
+
+
+PropertyCode: 0xd05e (NIKON:AE_LOCK_MODE)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+0:AE_L button only
+1:AE_L and shutter buttons
+
+PropertyCode: 0xd05f (NIKON:AELAFL_MODE)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 5
+StepSize: 1
+0:	AE/AF lock
+1:	AE
+2:	AF
+3:	AE locked until button pressed again
+4:	AF-ON - only autofocus when AEL/AFL button is pressed
+5:	Flash level lock
+
+PropertyCode: 0xd062 (NIKON:METER_OFF)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 1
+CurrentValue: 1
+MinimumValue: 0
+MaximumValue: 3
+StepSize: 1
+0: 4s
+1: 8s
+2: 16s
+3: 30min
+
+
+PropertyCode: 0xd063 (NIKON:SELF_TIMER)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 2
+CurrentValue: 2
+MinimumValue: 0
+MaximumValue: 3
+StepSize: 1
+0:2s
+1:5s
+2:10s
+3:20s
+
+PropertyCode: 0xd064 (NIKON:MONITOR_OFF)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 1
+CurrentValue: 1
+MinimumValue: 0
+MaximumValue: 4
+StepSize: 1
+0:10s
+1:20s
+2:1min
+3:5min
+4:10min
+
+PropertyCode: 0xd06b (NIKON:LONG_EXPOSURE_NOISE_REDUCTION)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+0: off
+1: on
+
+PropertyCode: 0xd06c (NIKON:FILE_NUMBER_SEQUENCE)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 2
+StepSize: 1
+0: off
+1: on
+2: reset
+
+PropertyCode: 0xd07c (NIKON:BRACKETING_SET)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 2
+StepSize: 1
+0:off
+1:ae & flash
+2:wb bracketing
+
+PropertyCode: 0xd08a (NIKON:NO_CF_CARD)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 1
+CurrentValue: 1
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+0:enable release
+1:release locked
+
+PropertyCode: 0xd090 (NIKON:IMAGE_COMMENT_STRING)
+DataType: STR
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue:                                     
+CurrentValue:                                     
+
+PropertyCode: 0xd091 (NIKON:IMAGE_COMMENT_ATTACH)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+0: off
+1: on
+
+PropertyCode: 0xd092 (NIKON:IMAGE_ROTATION)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+0:auto
+1:off
+
+PropertyCode: 0xd0c4 (NIKON:WHITE_BALANCE_BRACKET_STEP)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 2
+StepSize: 1
+0: 1step
+1: 2step
+2: 3step
+
+
+PropertyCode: 0xd103 (NIKON:MAXIMUM_SHOTS)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 49
+CurrentValue: 4
+MinimumValue: 0
+MaximumValue: 49
+StepSize: 1
+(max shots cached in camera RAM buffer)
+
+PropertyCode: 0xd104 (NIKON:AFL_LOCK)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+0: not pressed
+1: pressed
+
+PropertyCode: 0xd105 (NIKON:AUTO_EXPOSURE_LOCK)
+DataType: UINT8
+GetSet: STANDARD:GET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+0: not locked
+1: locked
+
+PropertyCode: 0xd108 (NIKON:AUTO_FOCUS_AREA)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 4
+StepSize: 1
+0:centre
+1:top
+2:bottom
+3:left
+4:right
+
+PropertyCode: 0xd126 (NIKON:FLASH_EXPOSURE_COMPENSATION) (also FLASH LEVEL menu item)
+DataType: INT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: -18
+MaximumValue: 6
+StepSize: 2
+
+-18:-3.0
+-16:-2.7
+-14:-2.3
+-12:-2.0
+-10:-1.7
+-8: -1.3
+-6: -1.0
+-4: -0.7
+-2: -0.3
+0:  0
+2:  +0.3
+4:  +0.7
+6:  +1.0
+
+PropertyCode: 0xd140 (NIKON:OPTIMIZE_IMAGE)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 7
+StepSize: 1
+0:normal
+1:vivid
+2:sharper
+3:softer
+4:direct print
+5:portrait
+6:landscape
+7:custom
+
+PropertyCode: 0xd161 (NIKON:AUTO_FOCUS_MODE)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 2
+CurrentValue: 2
+MinimumValue: 0
+MaximumValue: 2
+StepSize: 1
+0:AF-S
+1:AF-C
+2:AF-A
+
+PropertyCode: 0xd163 (NIKON:AF_ASSIST)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+0: on
+1: off
+
+PropertyCode: 0xd164 (NIKON:PA_DVP_MODE)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 2
+CurrentValue: 2
+MinimumValue: 0
+MaximumValue: 7
+StepSize: 1
+
+PropertyCode: 0xd165 (NIKON:IMAGE_REVIEW)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd166 (NIKON:AF_AREA_ILLUMINATION)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 2
+StepSize: 1
+
+PropertyCode: 0xd167 (NIKON:FLASH_MODE)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 1
+StepSize: 1
+
+PropertyCode: 0xd16b (NIKON:REMOTE_TIMEOUT)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 3
+StepSize: 1
+
+PropertyCode: 0xd16d (NIKON:FLASH_MODE_MANUAL_POWER)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 0
+MinimumValue: 0
+MaximumValue: 4
+StepSize: 1
+
+PropertyCode: 0xd190 (NIKON:BRACKETING_INCREMENT)
+DataType: UINT8
+GetSet: STANDARD:GET_SET
+FactoryDefaultValue: 0
+CurrentValue: 10
+MinimumValue: 0
+MaximumValue: 12
+StepSize: 2

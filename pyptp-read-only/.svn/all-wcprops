@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/12/trunk
+END
+nikontodo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/4/trunk/nikontodo.txt
+END
+DumpDeviceDetails.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/7/trunk/DumpDeviceDetails.py
+END
+ossotest
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/5/trunk/ossotest
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/7/trunk/test.py
+END
+HDRCapture.py
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/8/trunk/HDRCapture.py
+END
+Capture.py
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/6/trunk/Capture.py
+END
+TimelapseCapture.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12/trunk/TimelapseCapture.py
+END

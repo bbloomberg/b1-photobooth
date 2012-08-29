@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/131/trunk/tests
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/131/trunk/tests/test.py
+END
+minimock.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/131/trunk/tests/minimock.py
+END

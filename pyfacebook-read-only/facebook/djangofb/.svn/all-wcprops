@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/168/trunk/facebook/djangofb
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/168/trunk/facebook/djangofb/__init__.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/163/trunk/facebook/djangofb/models.py
+END
+context_processors.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/119/trunk/facebook/djangofb/context_processors.py
+END

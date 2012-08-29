@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/120/trunk/examples/pyfacebook_sample
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/120/trunk/examples/pyfacebook_sample/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/71/trunk/examples/pyfacebook_sample/__init__.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/89/trunk/examples/pyfacebook_sample/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/89/trunk/examples/pyfacebook_sample/urls.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/89/trunk/examples/pyfacebook_sample/README
+END
