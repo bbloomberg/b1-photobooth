@@ -205,7 +205,7 @@ class App:
                         # Send the email via our own SMTP server.
                         s = smtplib.SMTP('outgoing.mit.edu', 587)
                         s.starttls()
-                        s.login('eadams','b1ph0t0b00th')
+                        s.login(USER,PW)
                         #print self.email_entry.get()
                         toaddrs = ["eadams@mit.edu", "burton1-officers@mit.edu", "benb@mit.edu"]
                         to_final = []
